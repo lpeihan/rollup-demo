@@ -1,0 +1,27 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "main": "dist/bundle.common.js",
+  "module": "dist/bundle.esm.js",
+  "unpkg": "dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "nib": "^1.1.2",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-vue": "^4.3.2"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
