@@ -1,11 +1,11 @@
 import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
-import vue from 'rollup-plugin-vue';
+// import vue from 'rollup-plugin-vue';
 import pkg from './package.json';
 
 export default {
-    input: './app.vue',
+    input: './src/math.js',
     output: [
       {
         file: pkg.module,
@@ -23,9 +23,9 @@ export default {
       }
     ],
     plugins: [
-      vue({
-        css: true
-      }),
+      // vue({
+      //   css: true
+      // }),
       babel({
         exclude: 'node_modules/**'
       }),
