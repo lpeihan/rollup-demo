@@ -15,12 +15,6 @@ describe('#math', () => {
         it('should return 5 when sum(2, 3)', () => {
             sum(2, 3).should.equal(5);
         });
-    });
-
-    describe('sum', () => {
-        it('should return -1 when sum(2, -3)', () => {
-            sum(2, -3).should.equal(-1);
-        });
 
         it('should return -1 when sum(2, -3)', () => {
             sum(2, -3).should.equal(-1);

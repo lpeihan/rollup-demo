@@ -6,7 +6,8 @@
   "unpkg": "dist/bundle.js",
   "scripts": {
     "build": "rollup -c",
-    "test": "mocha test/mocha.js"
+    "test": "mocha test/mocha.js",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "nib": "^1.1.2",
     "rollup": "^0.66.6",
