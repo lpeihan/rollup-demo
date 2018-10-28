@@ -5,7 +5,8 @@
   "module": "dist/bundle.esm.js",
   "unpkg": "dist/bundle.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "mocha test/mocha.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,8 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
     "nib": "^1.1.2",
     "rollup": "^0.66.6",
     "rollup-plugin-babel": "^3.0.3",
