@@ -1,4 +1,4 @@
-const { sum, mul } = require('../src/math');
+const { sum, mul ,min } = require('../src/math');
 const { should, expect, assert } = require('chai');
 
 // should();
@@ -24,6 +24,16 @@ describe('#math', () => {
     describe('mul', () => {
         it('should return -6 when mul(2, -3)', () => {
             mul(2, -3).should.equal(-6);
+        });
+    });
+
+    describe('min', () => {
+        it('should return 2 when min(2, 3)', () => {
+            min(2, 3).should.equal(2);
+        });
+
+        it('should return 0 when min(1, 0)', () => {
+            min(1, 0).should.equal(0);
         });
     });
 });

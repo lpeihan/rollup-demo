@@ -8,5 +8,12 @@ module.exports = {
         return args.reduce((prev, cur) => {
             return prev * cur;
         });
+    },
+    min(a, b) {
+        if (a <= b) {
+            return a;
+        } else {
+            return b;
+        }
     }
 };
