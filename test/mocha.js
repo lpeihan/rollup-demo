@@ -32,7 +32,7 @@ describe('#math', () => {
             min(2, 3).should.equal(2);
         });
 
-        it('should return 0 when min(1, 0)', () => {
+        it('should return 0 when min(1, 0)~', () => {
             min(1, 0).should.equal(0);
         });
     });
